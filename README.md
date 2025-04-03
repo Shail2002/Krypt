@@ -1,15 +1,26 @@
-# Basic Sample Hardhat Project
+Krypt - Web-3.0-Blockchain-Application
+Description
+Krypt is a Web3.0 blockchain application that enables users to send transactions over the blockchain, with each transaction being permanently recorded on the blockchain.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+Demo / UI
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+Main Functionalities:
+Users can connect their MetaMask wallets to send ethereum through the blockchain.
+Each transaction will be paired with a gif and it will be forever stored on the blockchain.
+Users can access and view their latest transactions (and the gifs associated with them).
+Getting Started
+To get a local copy up and running follow these simple example steps.
+
+Clone the repo
+git clone https://github.com/prejin2310/Krypt---Web-3.0-Blockchain-Application.git
+Install NPM packages
+npm i
+Start the app in development mode
+npm run dev
+Built With
+Vite.js (react)
+Tailwind CSS
+Solidity
+Giphy API
+Vercel
